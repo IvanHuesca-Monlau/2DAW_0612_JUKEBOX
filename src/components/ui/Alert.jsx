@@ -41,7 +41,7 @@ export function Alert({
       )}
     >
       {icon !== false && (
-        <div className="flex-shrink-0">
+        <div className="shrink-0">
           {icon || (() => {
             const Icon = icons[variant];
             return <Icon className={cn('w-5 h-5', iconColors[variant])} />;
